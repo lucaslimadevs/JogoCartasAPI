@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Entities\\Domain.Entities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Entities\\Domain.Entities.csproj",
+        "projectName": "Domain.Entities",
+        "projectPath": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Entities\\Domain.Entities.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Infraestructure\\Domain.Infraestructure.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Infraestructure\\Domain.Infraestructure.csproj",
+        "projectName": "Domain.Infraestructure",
+        "projectPath": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Infraestructure\\Domain.Infraestructure.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Repository\\Domain.Repository.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Repository\\Domain.Repository.csproj",
+        "projectName": "Domain.Repository",
+        "projectPath": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Repository\\Domain.Repository.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Entities\\Domain.Entities.csproj"
+              },
+              "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Infraestructure\\Domain.Infraestructure.csproj": {
+                "projectPath": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Infraestructure\\Domain.Infraestructure.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI.csproj",
+        "projectName": "JogoCartasAPI",
+        "projectPath": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Infraestructure\\Domain.Infraestructure.csproj": {
+                "projectPath": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Infraestructure\\Domain.Infraestructure.csproj"
+              },
+              "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Repository\\Domain.Repository.csproj": {
+                "projectPath": "C:\\Git_lucaslimadevs\\JogoCartasAPI\\JogoCartasAPI\\JogoCartasAPI\\Domain.Repository\\Domain.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
